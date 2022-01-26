@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewBackgroundBanner"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/custom_background_banner">
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewBackgroundBanner">
+
+        <ImageView
+            android:id="@+id/imageViewBanner"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="2dp"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_bannerTitle"
+            android:textSize="18dp"
+            android:text="test bai hat"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignTop="@id/imageViewBanner"
+            android:layout_toRightOf="@id/imageViewBanner">
+        </TextView>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_below="@id/tv_bannerTitle"
+            android:layout_toRightOf="@id/imageViewBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/tvNoiDung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:maxLines="2"
+                android:text="jasdhasjkdhaksjdhaksjhkasdjsadjksadjkjasdhdasdjasdh"
+                android:textColor="#ffffff"
+                android:textSize="15dp"></TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

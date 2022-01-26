@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_timkiemhinhanh"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_searchtenbai"
+        android:layout_toRightOf="@id/iv_timkiemhinhanh"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_searchtencasi"
+        android:layout_toRightOf="@id/iv_timkiemhinhanh"
+        android:layout_below="@id/tv_searchtenbai"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    
+    <ImageView
+        android:id="@+id/iv_searchluotthich"
+        android:src="@drawable/iconlove"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp">
+    </ImageView>
+
+</RelativeLayout>

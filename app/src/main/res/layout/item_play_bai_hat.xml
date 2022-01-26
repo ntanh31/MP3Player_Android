@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_playnhacindex"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:text="1"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_playnhactenbaihat"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/tv_playnhacindex"
+            android:layout_marginLeft="10dp"
+            android:text="asdjaksfjlkasdjlk"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_playnhactencasi"
+            android:textColor="@color/white"
+            android:layout_below="@+id/tv_playnhactenbaihat"
+            android:layout_toRightOf="@+id/tv_playnhacindex"
+            android:layout_marginLeft="10dp"
+            android:text="asdjaksfjlkasdjlk"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:singleLine="true"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

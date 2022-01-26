@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/drawable/custom_background_banner.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/drawable/custom_background_playnhac.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_danhsachbaihat.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_danhsachcacplaylist.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_danhsachtatcaalbum.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_danhsachtatcachude.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_danhsachtheloaitheochude.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/activity_play_nhac.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_album_hot.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_bai_hat_hot.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_banner.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_chude_theloai_today.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_dia_nhac.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_play_danh_sach_bai_hat.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_playlist.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/fragment_trang_chu.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_album.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_bai_hat_hot.xml" value="0.264" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_banner.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_danhsachbaihat.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_danhsachplaylist.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_play_bai_hat.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_playlist.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_search.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_tatcaalbum.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_tatcachude.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/layout/item_theloaitheochude.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MP3Player/app/src/main/res/menu/search_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

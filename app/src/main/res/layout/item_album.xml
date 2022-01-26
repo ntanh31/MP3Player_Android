@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_cardAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_album"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp">
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/tv_tenAlbum"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="askdjksadjksaldjlsakdjlaks"
+            android:textSize="20dp"
+            android:maxWidth="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_tenCaSiAlbum"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:maxWidth="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
